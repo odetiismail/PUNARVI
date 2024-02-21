@@ -1,32 +1,22 @@
-import React, { useEffect, useRef,useState } from 'react'
-import { useAppSelector,useAppDispatch } from './Hooks'
-import { increment,decrement } from './Slice/CounterSlice'
-
-
-
-//import GotoTop from './Componends/GotoTop'
+import { useAppSelector} from "./Hooks";
 
 export const Home = () => {
-  const count=useAppSelector((curr)=>curr.data.value)
-  const dispatch=useAppDispatch()
-  
+  const count = useAppSelector((curr) => curr.data.values);
+console.log(count)
+  // const FilterData = (curr: any) => {
+  //   let da = curr.map((cur: any) => {
+  //     return cur.category;
+  //   });
 
-//   const ref = useRef(null);
+  //   const Filter = [];
+  //   return new Set(da);
+  //   // consol  e.log(da);
+  // };
+  // const data = FilterData(count);
 
-//   const Hi = () => {
-//     ref.current?.scrollIntoView({behavior: 'smooth'});
-//   };
-
-//   useEffect(()=>Hi(),[])
   return (
     <div>
-    
-{count}
-       Home 
-      {/* <button onClick={()=>{Hi()}}>Button</button> */}
-
-    <button onClick={()=>{dispatch(increment())}}>Button</button>
+      {count == undefined ? <p>Loading . . . . . . . </p> : <div>Home</div>}
     </div>
-  )
-}
-
+  );
+};
