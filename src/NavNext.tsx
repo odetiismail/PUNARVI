@@ -61,12 +61,12 @@ export const NavNext = () => {
     },
   ];
   return (
-    <nav className="p-padding sticky top-0 bg-Natural">
+    <nav className="p-padding sticky top-0 z-40 bg-Natural">
       <div className="">
         <div className="container flex m-auto justify-between">
           <div>
             <div className="max-sm:hidden">
-              <NavLinks/>
+              <NavLinks />
             </div>
 
             {/* Mobile Nav Bar */}

@@ -27,22 +27,22 @@ export const Footer = () => {
               </p>
               <span className=" border-t-2 border-gray-900 pr-8"></span>
               <p className="p-2 max-sm:text-sm max-sm:p-1">
-                <span className=" cursor-pointer hover:text-blue-800">
+                <span className=" cursor-pointer hover:text-Hover">
                   My Account
                 </span>
               </p>
               <p className="p-2 max-sm:text-sm max-sm:p-1">
-                <span className="cursor-pointer hover:text-blue-800">
+                <span className="cursor-pointer hover:text-Hover">
                   Orders
                 </span>
               </p>
               <p className="p-2 max-sm:text-sm max-sm:p-1">
-                <span className=" cursor-pointer hover:text-blue-800">
+                <span className=" cursor-pointer hover:text-Hover">
                   Recently Viewed Products
                 </span>
               </p>
               <p className="p-2 max-sm:text-sm max-sm:p-1">
-                <span className="cursor-pointer hover:text-blue-800">
+                <span className="cursor-pointer hover:text-Hover">
                   ShoppingCart
                 </span>
               </p>
@@ -53,22 +53,22 @@ export const Footer = () => {
               </p>
               <span className=" border-t-2 border-gray-900 pr-8"></span>
               <p className="p-2 max-sm:text-sm max-sm:p-1">
-                <span className=" cursor-pointer hover:text-blue-800">
+                <span className=" cursor-pointer hover:text-Hover">
                   About Us
                 </span>
               </p>
               <p className="p-2 max-sm:text-sm max-sm:p-1">
-                <span className="cursor-pointer hover:text-blue-800">
+                <span className="cursor-pointer hover:text-Hover">
                   Contac Ust
                 </span>
               </p>
               <p className="p-2 max-sm:text-sm max-sm:p-1">
-                <span className=" cursor-pointer hover:text-blue-800">
+                <span className=" cursor-pointer hover:text-Hover">
                   FAQ's
                 </span>
               </p>
               <p className="p-2 max-sm:text-sm max-sm:p-1">
-                <span className="cursor-pointer hover:text-blue-800">
+                <span className="cursor-pointer hover:text-Hover">
                   Apply for Seller Account
                 </span>
               </p>

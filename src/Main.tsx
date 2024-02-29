@@ -20,7 +20,7 @@ export const Main = () => {
         <NavNext />
         <Section />
         <Routes>
-          <Route path="/"  element={<Home />}></Route>
+          <Route path="/"  element={<Home/>}></Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/register" element={<Register />}></Route>
           <Route path="/products" element={<Products />}></Route>
