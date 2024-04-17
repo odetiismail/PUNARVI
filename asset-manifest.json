@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/odetiismail/Punarvi.git/static/css/main.013c28d0.css",
-    "main.js": "/odetiismail/Punarvi.git/static/js/main.90f54f0b.js",
-    "static/js/592.7f72a991.chunk.js": "/odetiismail/Punarvi.git/static/js/592.7f72a991.chunk.js",
-    "index.html": "/odetiismail/Punarvi.git/index.html",
-    "main.013c28d0.css.map": "/odetiismail/Punarvi.git/static/css/main.013c28d0.css.map",
-    "main.90f54f0b.js.map": "/odetiismail/Punarvi.git/static/js/main.90f54f0b.js.map",
-    "592.7f72a991.chunk.js.map": "/odetiismail/Punarvi.git/static/js/592.7f72a991.chunk.js.map"
+    "main.css": "/Punarvi/static/css/main.013c28d0.css",
+    "main.js": "/Punarvi/static/js/main.a8538380.js",
+    "static/js/592.7f72a991.chunk.js": "/Punarvi/static/js/592.7f72a991.chunk.js",
+    "index.html": "/Punarvi/index.html",
+    "main.013c28d0.css.map": "/Punarvi/static/css/main.013c28d0.css.map",
+    "main.a8538380.js.map": "/Punarvi/static/js/main.a8538380.js.map",
+    "592.7f72a991.chunk.js.map": "/Punarvi/static/js/592.7f72a991.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.013c28d0.css",
-    "static/js/main.90f54f0b.js"
+    "static/js/main.a8538380.js"
   ]
 }
