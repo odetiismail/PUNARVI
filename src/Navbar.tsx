@@ -6,8 +6,13 @@ export const Navbar = () => {
     <nav className="bg-Bg p-padding">
       <div className="container mx-auto  flex justify-between max-sm:justify-center text-white   max-sm:flex">
         <div className=" relative flex gap-6 max-sm:text-sm max-sm:hidden">
+          <p className=" font-bold transition-all duration-300 ease-in hover:text-Hover">
+           <Link to='/'>
+            Home
+           </Link>
+          </p>
           <p className=" text-base transition-all duration-300 ease-in hover:text-Hover">
-            How To Buy
+            How To Sell
           </p>
           <p className=" text-base transition-all duration-300 ease-in hover:text-Hover">
             How To Sell

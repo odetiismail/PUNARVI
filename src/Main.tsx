@@ -1,11 +1,12 @@
 //import React from "react";
 
 import { Home } from "./Home";
-import Products from "./Products";
+import { SingleProduct } from "./SingleProduct/SingleProduct";
+import { Products } from "./ProductPage/Products";
 import { Error } from "./Error";
 import { Navbar } from "./Navbar";
 import { NavNext } from "./NavNext";
-import Section from "./Section";
+// import Section from "./Section";
 import { Footer } from "./Footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Login } from "./Components/Login";
@@ -18,12 +19,12 @@ export const Main = () => {
       <BrowserRouter>
         <Navbar />
         <NavNext />
-        <Section />
         <Routes>
           <Route path="/"  element={<Home/>}></Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/register" element={<Register />}></Route>
           <Route path="/products" element={<Products />}></Route>
+          <Route path="/SingleProduct/:id" element={<SingleProduct/>}></Route>
           <Route path="/cart" element={<Cart/>}></Route>
           <Route path="/favrate" element={<Fav/>}></Route>
           <Route path="*" element={<Error />}></Route>

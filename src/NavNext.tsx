@@ -114,14 +114,14 @@ export const NavNext = () => {
         <div className="hidden max-sm:block">
           <div className={change ? "hidden" : "max-sm:block"}>
             <div className="w-full text-center mt-2  ">
-              {Links.map((curr) => (
+              {Links.map((curr,k) => (
                 <div className="">
                   <div className="p-2 hover:bg-gray-200 w-full h-full text-sm relative group">
                     <h1>{curr.name}</h1>
                     <div className=" absolute hidden group-hover:block hover:block z-50 right-0  bg-white w-full">
                       <div>
-                        {curr.sublink.map((cur) => (
-                          <h1 className="p-2  hover:bg-gray-100 hover:text-blue-600">
+                        {curr.sublink.map((cur,ke) => (
+                          <h1 key={ke} className="p-2  hover:bg-gray-100 hover:text-blue-600">
                             {cur.name}
                           </h1>
                         ))}

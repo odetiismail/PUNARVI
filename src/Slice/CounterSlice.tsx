@@ -21,7 +21,7 @@ export const getData = createAsyncThunk("user/fetchById", async () => {
   //return  fetch("https://dummyjson.com/products").then((res) => res.json());
   try {
     const res = await axios.get("https://dummyjson.com/products");
-    console.log(res);
+    // console.log(res);
     return res.data.products;
   } catch (err) {
     console.log(err);
