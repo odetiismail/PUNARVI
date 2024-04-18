@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Punarvi/static/css/main.013c28d0.css",
+    "main.js": "/Punarvi/static/js/main.a8538380.js",
+    "static/js/592.7f72a991.chunk.js": "/Punarvi/static/js/592.7f72a991.chunk.js",
+    "index.html": "/Punarvi/index.html",
+    "main.013c28d0.css.map": "/Punarvi/static/css/main.013c28d0.css.map",
+    "main.a8538380.js.map": "/Punarvi/static/js/main.a8538380.js.map",
+    "592.7f72a991.chunk.js.map": "/Punarvi/static/js/592.7f72a991.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.013c28d0.css",
+    "static/js/main.a8538380.js"
+  ]
+}
