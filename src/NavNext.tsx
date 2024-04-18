@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { HiShoppingCart } from "react-icons/hi";
 import { FaHeart } from "react-icons/fa";
 import { Search } from "./Components/Search";
-import { NavLink } from "react-router-dom";
+import { NavLinks } from "./Components/NavLinks";
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import { ImCross } from "react-icons/im";
 import { Link } from "react-router-dom";
@@ -66,7 +66,7 @@ export const NavNext = () => {
         <div className="container flex m-auto justify-between">
           <div>
             <div className="max-sm:hidden">
-              <NavLink to=''/>
+              <NavLinks/>
             </div>
 
             {/* Mobile Nav Bar */}
@@ -110,7 +110,7 @@ export const NavNext = () => {
             </div>
           </div>
         </div>
-{/*Mobile */}
+        {/*Mobile */}
         <div className="hidden max-sm:block">
           <div className={change ? "hidden" : "max-sm:block"}>
             <div className="w-full text-center mt-2  ">
